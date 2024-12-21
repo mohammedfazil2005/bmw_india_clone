@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: outfit;
+}
+
+nav{
+    padding: 20px;
+    background: transparent;
+    
+}
+.nav-container{
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+.nav-li a{
+    margin: 0px 10px;
+    color: white;
+}
+.nav-li a:hover{
+    border-bottom: 2px solid dodgerblue;
+    color: white;
+}
+.nav-right i{
+    margin: 0px 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure it stays behind the content */
+}
+.heading-div-left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.heading-div-left span{
+    font-size: 23px;
+    letter-spacing: 10px;
+}
+.heading-div-left h1{
+    font-size: 235px;
+    margin-top: -30px;
+}
+.heading-div-left h6{
+    font-size: 30px;
+    margin-top: -30px;
+    font-weight: 300;
+}
+.heading-div-left p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.heading-div-left button{
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(18, 123, 228);
+    color: white;
+    font-weight: bold;
+}
+#first-Bmw-heading{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.about-bmw-cars-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.about-bmw-cars-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bmw-cars-div div img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+.about-bmw-cars-div div p{
+    font-weight: 200;
+    font-size: 26px;
+    margin: 10px 0px;
+}
+.about-bmw-cars-div div button{
+    padding: 15px 20px;
+    background: white;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+}
+.about-bmw-cars-div div button:hover{
+    border: 2px solid black;
+}
+.bmw-ix-div{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    flex-wrap: wrap;
+    
+  
+}
+.bmw-ix-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.bmw-ix-div h1{
+    font-weight: lighter;
+}
+.bmw-ix-div div p{
+    font-weight: 200;
+}
+.bmw-ix-div div button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.bmw-ix-div div button:hover{
+    border: 2px solid white;
+}
+.bmw-ix-div div img{
+    width: 100%;
+}
+
+
+.bmw-ads-section{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  
+}
+.bmw-ads-section-left{
+    width: 700px;
+}
+
+.bmw-ads-section-left img{
+    width: 100%;
+    height: 390px;
+}
+.bmw-ads-section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.bmw-ads-section-right h1{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.bmw-ads-section-right p{
+    margin-top: -15px;
+    font-weight: 400;
+}
+.bmw-ads-section-right span{
+   font-weight: bold;
+   cursor: pointer;
+
+}
+.bmw-ads-section-right span:hover{
+    color: dodgerblue;
+}
+
+.policy-div{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.policy-div div{
+    margin-top: 70px;
+}
+.policy-div h1{
+    font-size: 13px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: black;
+}
+.policy-div p{
+    margin-top: -10px;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+.policy-div p:hover{
+    color: dodgerblue;
+}
+
+@media screen and (max-width:805px) {
+    .bmw-ix-div div{
+       width: 100%;
+       margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width:539px) {
+    .bmw-ads-section-left img{
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width:434px) {
+    
+.policy-div{
+    background-color: white;
+    flex-direction: column;
+}
+    
+}
