@@ -175,6 +175,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30px;
    
 }
 .bmw-ads-section-right h1{
