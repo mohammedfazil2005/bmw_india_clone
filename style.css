@@ -6,7 +6,7 @@
 
 nav{
     padding: 20px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.577);
     
 }
 .nav-container{
@@ -16,6 +16,7 @@ nav{
 .nav-li a{
     margin: 0px 10px;
     color: white;
+    
 }
 .nav-li a:hover{
     border-bottom: 2px solid dodgerblue;
@@ -26,6 +27,9 @@ nav{
     font-size: 20px;
     color: white;
     cursor: pointer;
+}
+#navbar-toggler-button{
+    background-color: white;
 }
 
 
@@ -63,8 +67,9 @@ video {
 }
 .heading-div-left button{
     width: 200px;
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(18, 123, 228);
+    border: none;
     color: white;
     font-weight: bold;
 }
@@ -101,6 +106,9 @@ video {
     background: white;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.603);
+    animation-name: border-color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 .about-bmw-cars-div div button:hover{
     border: 2px solid black;
@@ -117,7 +125,7 @@ video {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 10px;
     color: white;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -134,6 +142,9 @@ video {
     background-color: black;
     border: 1px solid white;
     color: white;
+    animation-name: border-color;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 .bmw-ix-div div button:hover{
     border: 2px solid white;
@@ -207,6 +218,51 @@ video {
 .policy-div p:hover{
     color: dodgerblue;
 }
+.social-media{
+    margin: 0px 40px;
+    background-color: white;
+}
+.social-media-child{
+    margin-left: 30px;
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.social-media i{
+    margin: 0px 20px;
+    font-size: 20px;
+}
+footer{
+    background-color: white;
+    
+}
+.footer-child{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0px 30px;
+}
+
+.footer-child div{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-child div h1{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer-child div p{
+    margin: 0px 10px;
+}
+
+@keyframes border-color {
+    from{border: 1px solid black;}
+    to{border:1px solid dodgerblue }
+
+    
+}
 
 @media screen and (max-width:805px) {
     .bmw-ix-div div{
@@ -229,5 +285,15 @@ video {
     background-color: white;
     flex-direction: column;
 }
+.social-media-child{
+    margin-left: 0px;
+}
+    
+}
+
+@media screen and (max-width:1131px) {
+    .bmw-ads-section{
+        justify-content: left;
+    }
     
 }
